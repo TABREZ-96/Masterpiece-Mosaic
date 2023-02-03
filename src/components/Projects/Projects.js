@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import output3 from "../../Assets/Projects/output3.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import chef from "../../Assets/Projects/chef.jpeg";
+import art from "../../Assets/Projects/art.png";
+import we from "../../Assets/Projects/we.jpg";
+import je from "../../Assets/Projects/je.jpeg";
 
 function Projects() {
   return (
@@ -25,66 +25,65 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Economic-Intelligence"
+              description="This project utilizes the Federal Reserve Economic Data (FRED) API and Python's Pandas library to gather, clean, and analyze economic data.The project walks through the process of pulling down data for various economic indicators, cleaning and joining the data, and using the FRED API to obtain up-to-date data."
+              ghLink="https://github.com/TABREZ-96/Economic-Intelligence"
+              demoLink="https://github.com/TABREZ-96/Economic-Intelligence/blob/main/main.ipynb"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={output3}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="V0ice-0f-Customer"
+              description="This project aims to perform sentiment analysis on Amazon product reviews in order to gain insights into customer opinions and satisfaction.Amazon reviews using natural language processing and machine learning techniques."
+              ghLink="https://github.com/TABREZ-96/Voice-of-the-Customer"
+              demoLink="https://github.com/TABREZ-96/Voice-of-the-Customer/blob/main/sentiment.py"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={we}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Storm-Tracker"
+              description="Introducing Weather App, a powerful and intuitive application that helps you stay informed about the weather conditions in your area and around the world. With the app, you can easily check current weather conditions.The Weather App uses RESTful API to access up-to-date weather data from a reliable source, ensuring that the information you receive is accurate and reliable."
+              ghLink="https://github.com/TABREZ-96/StormTracker"
+              demoLink="https://tabrez-96.github.io/StormTracker/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={art}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Photo-To-Art"
+              description="Creating art from what we see is nothing new and creating paintings and drawings from photos is no different. The ability to quickly and easily create a sellable work of art is invaluable. Photo art is a fun and creative way to create original art or share memories with loved ones. Change your images into treasured artwork that can be displayed for everyone to enjoy."
+              ghLink="https://github.com/TABREZ-96/Photo-To-Art"
+              demoLink="https://github.com/TABREZ-96/Photo-To-Art/blob/gp-pages/Art.py"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={je}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Sudoku-Genie"
+              description="This project contains a Python implementation of a Sudoku solver. It uses a backtracking algorithm to solve the puzzle.The solver can be used by calling the solve() function and passing it a 9x9 grid represented as a 2D array. Empty cells in the grid should be represented as 0."
+              ghLink="https://github.com/TABREZ-96/SudokuGenie"
+
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={chef}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Snap-Chef"
+              description="Introducing our exciting new project, Recipe Generation from Food Images! Imagine having the ability to simply snap a photo of a delicious dish and have the recipe automatically generated for you. No more endless scrolling through cookbooks or searching the web. With our innovative technology, your next culinary creation is just a click away! Say goodbye to the frustration of recipe hunting and hello to effortless cooking inspiration. Join us on this tasty journey and discover the magic of Recipe Generation from Food Images."
+              ghLink=""
+       
             />
           </Col>
         </Row>
